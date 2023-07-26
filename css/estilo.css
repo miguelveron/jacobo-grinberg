@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/******** BODY **********/
+
+.color-body {
+  background-color: #c9f2c7;
+}
+
+/******* boton wpp *******/
+
+.wpp {
+  width: 60px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+}
+
+/********* NAVBAR *********/
+
+.navbar-toggler {
+        background-color: white;
+        color: black; 
+        border-color: white;
+}
+
+/************** FOTO DE INICIO **************/
+.card-title {
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.card-text {
+  font-size: 1.5em;
+}
+
+
+@media (max-width: 576px) {
+  .card-title,
+  .card-text {
+      font-size: 1em;  
+  }
+}
+
+/**************** MAIN INICIO ***************/
+
+.texto-h2 {
+  text-align: center;
+  padding: 30px 30px 10px 30px;
+}
+
+.texto-parrafo {
+  padding: 20px 30px 30px
+}
+
+@media (max-width: 576px) {
+  .texto-h2 {
+    font-size: 24px;
+  }
+}
+
+/*****************  INVESTIGACION CARDS ****************/
+
+.foto-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/***************** MAIN BIOGRAFIA **********************/
+
+h2 {
+  font-size: 60px;
+}
+
+.img-bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2-bio {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p-bio {
+  margin: 5%;
+  font-size: 20px;
+}
+
+
+
+/*************** MAIN CONTACTO ***************/
+
+.figure-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fig-contacto {
+  font-size: 60px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+
+/************ FOOTER *************/
+
+footer {
+  margin: 0 auto;
+  margin-top: auto;
+}
+
