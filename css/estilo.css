@@ -21,16 +21,21 @@
 
 /********* NAVBAR *********/
 
+
 .navbar-toggler {
         background-color: white;
         color: black; 
         border-color: white;
 }
 
-.text-hover:hover {
-  color: aqua;
+.color-texto {
+  text-transform: uppercase;
 }
 
+.color-texto:hover {
+  
+  color: #023e8a; /* Cambia el color al pasar el cursor por encima */
+}
 /************** FOTO DE INICIO **************/
 .card-title {
     color: white;
@@ -68,6 +73,10 @@
 }
 
 /*****************  INVESTIGACION CARDS ****************/
+
+.borde { 
+  border: none;
+}
 
 .foto-card {
   display: flex;
