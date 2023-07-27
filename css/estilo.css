@@ -21,27 +21,36 @@
 
 /********* NAVBAR *********/
 
-
 .navbar-toggler {
-        background-color: white;
-        color: black; 
-        border-color: white;
+  background-color: #fff;
+
+}
+
+
+.text-nav {
+  color: white;
+  text-transform: uppercase;
+}
+.text-nav:hover {
+  color: #38b000;
 }
 
 .color-texto {
-  text-transform: uppercase;
+  color: white;
+
 }
 
 .color-texto:hover {
-  
-  color: #023e8a; /* Cambia el color al pasar el cursor por encima */
+  text-transform: uppercase;
+  color: #38b000; /* Cambia el color al pasar el cursor por encima */
 }
 /************** FOTO DE INICIO **************/
 .card-title {
-    color: white;
+
     font-size: 3em;
     text-transform: uppercase;
     margin-top: 100px;
+
 }
 .card-text {
   font-size: 1.5em;
@@ -145,3 +154,6 @@ footer {
   margin-top: auto;
 }
 
+.color-footer {
+  background-color: black;
+}
