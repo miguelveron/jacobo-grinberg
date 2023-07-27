@@ -6,7 +6,7 @@
 /******** BODY **********/
 
 .color-body {
-  background-color: #e0fbfc;
+  background-color: white;
 }
 
 /******* boton wpp *******/
@@ -32,7 +32,7 @@
   text-transform: uppercase;
 }
 .text-nav:hover {
-  color: #38b000;
+  color: #fb8500;
 }
 
 .color-texto {
@@ -42,7 +42,7 @@
 
 .color-texto:hover {
   text-transform: uppercase;
-  color: #38b000; /* Cambia el color al pasar el cursor por encima */
+  color: #fb8500; /* Cambia el color al pasar el cursor por encima */
 }
 /************** FOTO DE INICIO **************/
 .card-title {
@@ -83,9 +83,6 @@
 
 /*****************  INVESTIGACION CARDS ****************/
 
-.borde { 
-  border: none;
-}
 
 .foto-card {
   display: flex;
