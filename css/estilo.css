@@ -32,7 +32,7 @@
   text-transform: uppercase;
 }
 .text-nav:hover {
-  color: #fb8500;
+  color: #faedcd;
 }
 
 .color-texto {
@@ -42,7 +42,7 @@
 
 .color-texto:hover {
   text-transform: uppercase;
-  color: #fb8500; /* Cambia el color al pasar el cursor por encima */
+  color: #faedcd;
 }
 /************** FOTO DE INICIO **************/
 .card-title {
@@ -72,7 +72,7 @@
 }
 
 .texto-parrafo {
-  padding: 20px 60px 30px
+  padding: 20px 30px 30px
 }
 
 @media (max-width: 576px) {
