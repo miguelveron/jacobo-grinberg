@@ -32,7 +32,7 @@
   text-transform: uppercase;
 }
 .text-nav:hover {
-  color: #faedcd;
+  color: #dda15e;
 }
 
 .color-texto {
@@ -42,8 +42,13 @@
 
 .color-texto:hover {
   text-transform: uppercase;
-  color: #faedcd;
+  color:#dda15e ;
 }
+
+.boton-nav:hover {
+  color: #dda15e;
+}
+
 /************** FOTO DE INICIO **************/
 .card-title {
 
@@ -83,7 +88,9 @@
 
 /*****************  INVESTIGACION CARDS ****************/
 
-
+.color-caja {
+  background-color: #dda15e ;
+}
 .foto-card {
   display: flex;
   flex-direction: column;
@@ -142,6 +149,18 @@ h2 {
   font-size: 25px;
   width: 100%;
 }
+
+.sombra {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra con desplazamiento horizontal de 2px, desplazamiento vertical de 2px y un radio de desenfoque de 4px */
+ 
+}
+
+/***************** MAIN BIBLIOGRAFIA ******************/
+.bi {
+  text-align: center;
+  padding: 50px;
+}
+
 
 
 /************ FOOTER *************/
