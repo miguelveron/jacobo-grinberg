@@ -1,13 +1,18 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /******** BODY **********/
 
 .color-body {
   background-color: white;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
+
+
+
 
 /******* boton wpp *******/
 
@@ -31,8 +36,9 @@
   color: white;
   text-transform: uppercase;
 }
+
 .text-nav:hover {
-  color: #dda15e;
+  color: #00b4d8;
 }
 
 .color-texto {
@@ -42,30 +48,32 @@
 
 .color-texto:hover {
   text-transform: uppercase;
-  color:#dda15e ;
+  color: #00b4d8;
 }
 
 .boton-nav:hover {
-  color: #dda15e;
+  color: #00b4d8;
 }
 
 /************** FOTO DE INICIO **************/
 .card-title {
 
-    font-size: 3em;
-    text-transform: uppercase;
-    margin-top: 100px;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 100px;
 
 }
+
 .card-text {
   font-size: 1.5em;
 }
 
 
 @media (max-width: 576px) {
+
   .card-title,
   .card-text {
-      font-size: 1em;  
+    font-size: 1em;
   }
 }
 
@@ -88,9 +96,11 @@
 
 /*****************  INVESTIGACION CARDS ****************/
 
-.color-caja {
-  background-color: #dda15e ;
+.borde {
+border: none;
 }
+
+
 .foto-card {
   display: flex;
   flex-direction: column;
@@ -127,7 +137,6 @@ h2 {
 }
 
 
-
 /*************** MAIN CONTACTO ***************/
 
 .figure-contenedor {
@@ -151,16 +160,31 @@ h2 {
 }
 
 .sombra {
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra con desplazamiento horizontal de 2px, desplazamiento vertical de 2px y un radio de desenfoque de 4px */
- 
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  
 }
+
+.fondo-foto {
+  background-image: url('../imagenes/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+
 
 /***************** MAIN BIBLIOGRAFIA ******************/
-.bi {
+.titulo-h2-bi {
   text-align: center;
   padding: 50px;
+  text-transform: uppercase;
 }
 
+.card-title- {
+  font-size: 25px;
+  text-transform: uppercase;
+}
 
 
 /************ FOOTER *************/
@@ -172,4 +196,35 @@ footer {
 
 .color-footer {
   background-color: black;
+}
+
+/******* VIDEO DE YOUTUBE ********/
+
+.video-container {
+margin-left: 20%;
+}
+
+
+/***** BOTON FLOTANTE *****/
+
+.boton-flotante {
+  position: fixed;
+  bottom: 100px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Para quitar la decoración de enlace */
+}
+
+.boton-flotante:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }

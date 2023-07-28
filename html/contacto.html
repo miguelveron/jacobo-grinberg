@@ -12,17 +12,26 @@
     <title> Jacobo Grinberg-Zylberbaum </title>
     <!-- favicon -->
     <link rel="shortcut icon" href="../imagenes/noticia_normal.jpg" type="image/x-icon">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body class="color-body">
-    <!--                         navbar                       -->
+
+
+
+    <!--       header         -->
 
     <header class="navbar navbar-expand-lg bg-black ">
         <div class="container text-black">
             <a class="navbar-brand text-nav fw-bold fs-1" href="../index.html">Jacobo Grinberg</a>
-            <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="collapse navbar-collapse" id="navbarToggler">
@@ -51,54 +60,57 @@
 
     <!--                           main                           -->
 
-    <main>
+
+
+    <main class="fondo-foto">
 
         <figure class="figure figure-contenedor p-5">
             <img src="../imagenes/Los chamanes más poderosos de México (íntima selección de Jacobo Grinberg Zylberbaum) - Más de México.jpg"
                 class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption text-black fig-contacto sombra"> Contactanos </figcaption>
+            <figcaption class="figure-caption text-white fig-contacto sombra"> Contactanos </figcaption>
         </figure>
 
         <div class="formulario text-black p-4 sombra">
             <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label"> Nombre </label>
+                <label for="formGroupExampleInput" class="form-label text-white"> Nombre </label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nombre">
             </div>
             <div class="mb-3">
-                <label for="formGroupExampleInput2" class="form-label"> Apellido </label>
+                <label for="formGroupExampleInput2" class="form-label text-white"> Apellido </label>
                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="apellido">
             </div>
 
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <label for="exampleFormControlInput1" class="form-label text-white">Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@majestuoso.com">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
                 <textarea class="form-control " id="exampleFormControlTextarea1" rows="8" cols="50"
-                    placeholder="Deja tu mensaje"></textarea>
+                    placeholder="Dejanos tu mensaje"></textarea>
             </div>
             <div>
                 <button class="btn btn-outline-dark" type="submit"> Enviar </button>
             </div>
         </div>
 
-
-
-
-
-
-
-
     </main>
 
 
-    <!--                                footer                            -->
+
+    <!--   boton whatsaap  -->
+    <div>
+        <a href="https://www.whatsapp.com" target="_blank"><img src="../imagenes/wpp.png" alt="logo whatsapp"
+                class="wpp"></a>
+    </div>
+
+
+    <!--       footer           -->
 
 
     <footer class="bg-black text-center text-blac8">
         <div class="container-fluid pb-0">
-            <section class="border-bottom p-3">
+            <section class="border-bottom p-2">
 
                 <!-- Facebook -->
                 <a href="https://www.facebook.com/TuPaginaDeFacebook" target="_blank" class="m-lg-2"><svg
@@ -126,9 +138,13 @@
             </section>
         </div>
 
+        <!-- Botón flotante -->
+        <a href="#" class="boton-flotante">&#8593;</a>
+
+
 
         <!-- Copyright -->
-        <div class="text-center p-3 text-white color-footer">
+        <div class="text-center p-2 text-white color-footer">
             © 2020 Copyright: Pagina Jacobo Grinberg-Zylberbaum
         </div>
 
