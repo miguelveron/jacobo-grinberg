@@ -71,7 +71,12 @@
 
 @media (max-width: 576px) {
 
-  .card-title,
+  .card-title {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 576px) {
   .card-text {
     font-size: 1em;
   }
@@ -97,7 +102,7 @@
 /*****************  INVESTIGACION CARDS ****************/
 
 .borde {
-border: none;
+  border: none;
 }
 
 
@@ -163,7 +168,7 @@ h2 {
 
 .sombra {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-  
+
 }
 
 .fondo-foto {
@@ -208,7 +213,7 @@ footer {
 /******* VIDEO DE YOUTUBE ********/
 
 .video-container {
-margin-left: 20%;
+  margin-left: 20%;
 }
 
 
@@ -229,7 +234,8 @@ margin-left: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none; /* Para quitar la decoración de enlace */
+  text-decoration: none;
+  /* Para quitar la decoración de enlace */
 }
 
 .boton-flotante:hover {
