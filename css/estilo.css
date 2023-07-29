@@ -38,7 +38,7 @@
 }
 
 .text-nav:hover {
-  color: #00b4d8;
+  color: #f2cc8f;
 }
 
 .color-texto {
@@ -48,11 +48,11 @@
 
 .color-texto:hover {
   text-transform: uppercase;
-  color: #00b4d8;
+  color: #f2cc8f;
 }
 
 .boton-nav:hover {
-  color: #00b4d8;
+  color: #f2cc8f;
 }
 
 /************** FOTO DE INICIO **************/
@@ -137,6 +137,8 @@ h2 {
 }
 
 
+
+
 /*************** MAIN CONTACTO ***************/
 
 .figure-contenedor {
@@ -165,7 +167,7 @@ h2 {
 }
 
 .fondo-foto {
-  background-image: url('../imagenes/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg');
+  background-image: url('../imagenes/andromeda.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,6 +188,11 @@ h2 {
   text-transform: uppercase;
 }
 
+@media (max-width: 576px) {
+  .media {
+    font-size: 34px;
+  }
+}
 
 /************ FOOTER *************/
 
