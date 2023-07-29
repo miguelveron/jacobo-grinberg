@@ -235,7 +235,6 @@ footer {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  /* Para quitar la decoración de enlace */
 }
 
 .boton-flotante:hover {
