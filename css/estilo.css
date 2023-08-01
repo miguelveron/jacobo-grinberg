@@ -5,7 +5,7 @@
 
 /******** BODY **********/
 
-.color-body {
+.colorBoT {
   background-color: white;
   font-family: 'Kanit', sans-serif;
   font-family: 'Roboto Slab', serif;
@@ -32,26 +32,26 @@
 }
 
 
-.text-nav {
+.textNav {
   color: white;
   text-transform: uppercase;
 }
 
-.text-nav:hover {
+.textNav:hover {
   color: #f2cc8f;
 }
 
-.color-texto {
+.colorTexto {
   color: white;
 
 }
 
-.color-texto:hover {
+.colorTexto:hover {
   text-transform: uppercase;
   color: #f2cc8f;
 }
 
-.boton-nav:hover {
+.botonNav:hover {
   color: #f2cc8f;
 }
 
@@ -84,17 +84,17 @@
 
 /**************** MAIN INICIO ***************/
 
-.texto-h2 {
+.textoH2 {
   text-align: center;
   padding: 30px 0 10px 0;
 }
 
-.texto-parrafo {
+.textoParrafo {
   padding: 20px 30px 30px
 }
 
 @media (max-width: 576px) {
-  .texto-h2 {
+  .textoH2 {
     font-size: 24px;
   }
 }
@@ -106,7 +106,7 @@
 }
 
 
-.foto-card {
+.fotoCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,7 +114,7 @@
 }
 
 @media (max-width: 576px) {
-  .h2-card {
+  .h2Card {
     font-size: 34px;
   }
 }
@@ -125,18 +125,18 @@ h2 {
   font-size: 60px;
 }
 
-.img-bio {
+.imgBio {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.h2-bio {
+.h2Bio {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.p-bio {
+.pBio {
   margin: 50px;
   font-size: 20px;
 }
@@ -146,14 +146,14 @@ h2 {
 
 /*************** MAIN CONTACTO ***************/
 
-.figure-contenedor {
+.figureContenedor {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.fig-contacto {
+.figContacto {
   font-size: 60px;
 }
 
@@ -171,7 +171,7 @@ h2 {
 
 }
 
-.fondo-foto {
+.fondoFoto {
   background-image: url('../imagenes/andromeda.png');
   background-size: cover;
   background-position: center;
@@ -182,13 +182,13 @@ h2 {
 
 
 /***************** MAIN BIBLIOGRAFIA ******************/
-.titulo-h2-bi {
+.tituloH2Bi {
   text-align: center;
   padding: 50px;
   text-transform: uppercase;
 }
 
-.card-title- {
+.cardTitulo {
   font-size: 25px;
   text-transform: uppercase;
 }
@@ -207,20 +207,20 @@ footer {
   margin-top: auto;
 }
 
-.color-footer {
+.colorFooter {
   background-color: black;
 }
 
 /******* VIDEO DE YOUTUBE ********/
 
-.video-container {
+.videoContainer {
   margin-left: 20%;
 }
 
 
 /***** BOTON FLOTANTE *****/
 
-.boton-flotante {
+.botonFlotante {
   position: fixed;
   bottom: 100px;
   right: 35px;
@@ -238,6 +238,6 @@ footer {
   text-decoration: none;
 }
 
-.boton-flotante:hover {
+.botonFlotante:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
