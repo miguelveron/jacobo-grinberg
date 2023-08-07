@@ -1,0 +1,33 @@
+/* MAIN CONTACTO */
+
+.figureContenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .figContacto {
+    @include titulos;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  .sombra {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fondoFoto {
+    background-image: url('../imagenes/andromeda.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }

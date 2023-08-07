@@ -1,3 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.Body {
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+/* NAVBAR */
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.botonNav:hover {
+  color: #f2cc8f;
+}
+
+.textNav {
+  color: white;
+  text-transform: uppercase;
+}
+.textNav:hover {
+  color: #f2cc8f;
+}
+
+.colorTexto {
+  color: white;
+}
+.colorTexto:hover {
+  text-transform: uppercase;
+  color: #f2cc8f;
+}
+
+/* MAIN BIOGRAFIA */
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.imgBio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2Bio {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pBio {
+  margin: 30px;
+  font-size: 18px;
+}
+
+/* MAIN CONTACTO */
+.figureContenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.figContacto {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+}
+
+.sombra {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fondoFoto {
+  background-image: url("../imagenes/andromeda.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* MAIN BIBLIOGRAFIA */
+.tituloH2Bi {
+  text-align: center;
+  padding: 50px;
+}
+
+.cardTitulo {
+  font-size: 25px;
+}
+@media (max-width: 576px) {
+  .cardTitulo .media {
+    font-size: 34px;
+  }
+}
+
+/* FOTO DE INICIO */
+.card-title {
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.2em;
+  }
+}
+
+.card-text {
+  font-size: 1.5em;
+}
+@media (max-width: 576px) {
+  .card-text {
+    font-size: 1em;
+  }
+}
+
+/* MAIN INICIO */
+.textoH2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+@media (max-width: 576px) {
+  .textoH2 {
+    font-size: 24px;
+  }
+}
+
+.textoParrafo {
+  font-size: 18px;
+}
+
+/* INVESTIGACION CARDS */
+.borde {
+  border: none;
+}
+
+.fotoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .fotoCard .h2Card {
+    font-size: 34px;
+  }
+}
+
+/* BOTON WPP */
+.wpp {
+  width: 60px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+}
+
+/* VIDEO DE YOUTUBE */
+.videoContainer {
+  margin-left: 20%;
+}
+
+/* BOTON FLOTANTE */
+.botonFlotante {
+  position: fixed;
+  bottom: 100px;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.botonFlotante:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /*# sourceMappingURL=estilo.css.map */

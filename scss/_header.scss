@@ -1,0 +1,27 @@
+/* NAVBAR */
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.botonNav:hover {
+    color: $colorHover;
+}
+
+.textNav {
+    color: $colorNav;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $colorHover;
+    }
+}
+
+.colorTexto {
+    color: $colorNav;
+
+    &:hover {
+        text-transform: uppercase;
+        color: $colorHover;
+    }
+}
