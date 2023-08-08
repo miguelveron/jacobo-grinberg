@@ -2,9 +2,12 @@
 @import "variables";
 @import "mixin";
 @import "header";
+@import "inicio";
+@import "card-investigacion";
 @import "biografia";
 @import "contacto";
 @import "bibliografia";
+@import "footer";
 
 /* FOTO DE INICIO */
 
@@ -25,39 +28,7 @@
       font-size: 1em;
     }
   }
-  
-  /* MAIN INICIO */
-  
-  .textoH2 {
-    @include titulos;
-  
-    @media (max-width: 576px) {
-      font-size: 24px;
-    }
-  }
-  
-  .textoParrafo {
-   @include parrafos
-  }
-  
-  /* INVESTIGACION CARDS */
-  
-  .borde {
-    border: none;
-  }
-  
-  .fotoCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-    @media (max-width: 576px) {
-      .h2Card {
-        font-size: 34px;
-      }
-    }
-  }
-  
+
 /* BOTON WPP */
 
 .wpp {

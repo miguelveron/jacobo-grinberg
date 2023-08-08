@@ -34,6 +34,44 @@
   color: #f2cc8f;
 }
 
+/* MAIN INICIO */
+.textoH2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+@media (max-width: 576px) {
+  .textoH2 {
+    font-size: 24px;
+  }
+}
+
+.textoParrafo {
+  font-size: 18px;
+  margin: 30px;
+}
+
+/* INVESTIGACION CARDS */
+.borde {
+  border: none;
+  padding: 20px;
+}
+
+.fotoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .fotoCard .h2Card {
+    font-size: 34px;
+  }
+}
+
+.parrafoInv {
+  margin: 20px;
+}
+
 /* MAIN BIOGRAFIA */
 h2 {
   font-size: 40px;
@@ -47,14 +85,17 @@ h2 {
   align-items: center;
 }
 
-.h2Bio {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .pBio {
   margin: 30px;
   font-size: 18px;
+  margin: 30px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
 
 /* MAIN CONTACTO */
@@ -107,6 +148,16 @@ h2 {
   }
 }
 
+/* FOOTER */
+footer {
+  margin: 0 auto;
+  margin-top: auto;
+}
+
+.colorFooter {
+  background-color: black;
+}
+
 /* FOTO DE INICIO */
 .card-title {
   font-size: 3em;
@@ -125,38 +176,6 @@ h2 {
 @media (max-width: 576px) {
   .card-text {
     font-size: 1em;
-  }
-}
-
-/* MAIN INICIO */
-.textoH2 {
-  font-size: 40px;
-  text-align: center;
-  padding: 30px 0 10px 0;
-}
-@media (max-width: 576px) {
-  .textoH2 {
-    font-size: 24px;
-  }
-}
-
-.textoParrafo {
-  font-size: 18px;
-}
-
-/* INVESTIGACION CARDS */
-.borde {
-  border: none;
-}
-
-.fotoCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-@media (max-width: 576px) {
-  .fotoCard .h2Card {
-    font-size: 34px;
   }
 }
 

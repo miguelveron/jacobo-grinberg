@@ -1,0 +1,22 @@
+  /* INVESTIGACION CARDS */
+  
+  .borde {
+    border: none;
+    padding: 20px;
+  }
+  
+  .fotoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    @media (max-width: 576px) {
+      .h2Card {
+        font-size: 34px;
+      }
+    }
+  }
+  
+  .parrafoInv {
+    margin: 20px;
+  }
