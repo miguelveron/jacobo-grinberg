@@ -62,7 +62,7 @@
   flex-direction: column;
   justify-content: center;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .fotoCard .h2Card {
     font-size: 34px;
   }
@@ -99,17 +99,44 @@ h2 {
 }
 
 /* MAIN CONTACTO */
-.figureContenedor {
+.divContenedor {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  padding: 20px;
+  text-align: center;
 }
 
-.figContacto {
+.divContenedor img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.parrafoContacto {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin-left: 30px;
+  margin-top: 80px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .divContenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parrafoContacto {
+    margin: 0 auto;
+  }
+}
+.h2Contacto {
   font-size: 40px;
   text-align: center;
   padding: 30px 0 10px 0;
+  padding-bottom: 60px;
 }
 
 .formulario {
@@ -118,7 +145,6 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  width: 100%;
 }
 
 .sombra {
@@ -166,16 +192,16 @@ footer {
 }
 @media (max-width: 576px) {
   .card-title {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
 .card-text {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 @media (max-width: 576px) {
   .card-text {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 

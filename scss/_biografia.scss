@@ -1,19 +1,20 @@
   /* MAIN BIOGRAFIA */
-
+  
   h2 {
-      @include titulos;
+    @include titulos;
   }
 
   .imgBio {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .pBio {
-      margin: 30px;
-      @include parrafos;
+    margin: 30px;
+    @include parrafos;
   }
+
   .img-container {
     display: flex;
     justify-content: center;
