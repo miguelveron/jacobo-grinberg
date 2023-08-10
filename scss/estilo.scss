@@ -3,7 +3,7 @@
 @import "mixin";
 @import "header";
 @import "inicio";
-@import "card-investigacion";
+@import "investigacion";
 @import "biografia";
 @import "contacto";
 @import "bibliografia";
@@ -39,11 +39,6 @@
     z-index: 9999;
   }
 
-/* VIDEO DE YOUTUBE */
-
-.videoContainer {
-    margin-left: 20%;
-  }
 /* BOTON FLOTANTE */
 
 .botonFlotante {

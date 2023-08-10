@@ -1,7 +1,7 @@
   /* INVESTIGACION CARDS */
   
   .borde {
-    border: none;
+    @include bordes;
     padding: 20px;
   }
   

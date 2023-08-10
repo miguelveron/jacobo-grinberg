@@ -1,23 +1,55 @@
  /* MAIN INICIO */
 
  .textoH2 {
-    @include titulos;
-  
-    @media (max-width: 576px) {
-      font-size: 24px;
-    }
-  }
-  
-  .textoParrafo {
-   @include parrafos
+   @include titulos;
+
+   @media (max-width: 576px) {
+     font-size: 24px;
+   }
+ }
+
+ .textoParrafo {
+   @include parrafos;
+ }
+
+ .cardTituloIni {
+   font-size: 25px;
+
+   @media (max-width: 576px) {
+     .media {
+       font-size: 34px;
+     }
+   }
+ }
+
+ .marginInicio {
+   @include margin;
+   @include bordes;
+ }
+
+ /* VIDEO DE YOUTUBE */
+
+ .videoInicio {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ }
+
+ .sec {
+  width: 100%;
+  overflow: hidden;
+}
+.imgInicio {
+      width: 100%;
+      display: block;
   }
 
-  .cardTituloIni {
-    font-size: 25px;
-  
-    @media (max-width: 576px) {
-      .media {
-        font-size: 34px;
-      }
-    }
-  }
+
+.fondoInicio {
+  background-image: url('../imagenes/galaxy6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
