@@ -86,11 +86,17 @@
 }
 
 .fondoInicio {
-  background-image: url("../imagenes/galaxy6.jpg");
+  background-image: url("../imagenes/galaxy1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 80vh;
+}
+
+.imgCentrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* INVESTIGACION CARDS */
@@ -144,6 +150,13 @@ h2 {
 /* VIDEO DE YOUTUBE */
 .videoContainer {
   margin-left: 20%;
+}
+
+.linea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
 }
 
 /* MAIN CONTACTO */
@@ -211,7 +224,7 @@ h2 {
 /* MAIN BIBLIOGRAFIA */
 .tituloH2Bi {
   text-align: center;
-  padding: 50px;
+  padding: 30px 0 30px 0;
 }
 
 .cardTitulo {
@@ -219,8 +232,12 @@ h2 {
 }
 @media (max-width: 576px) {
   .cardTitulo .media {
-    font-size: 34px;
+    font-size: 24px;
   }
+}
+
+.biblio {
+  padding: 10px 0 10px 0;
 }
 
 /* FOOTER */

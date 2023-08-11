@@ -18,3 +18,9 @@ text-transform: uppercase;
 @mixin bordes {
     border: none;
 }
+
+@mixin centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
