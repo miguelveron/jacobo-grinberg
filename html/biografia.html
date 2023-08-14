@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab&display=swap"
         rel="stylesheet">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="Body">
@@ -53,103 +55,115 @@
         </div>
     </header>
     <!-- main -->
-    <section class="container">
-        <h2 class="text-center sombra ">Biografía</h2>
-        <div class="img-container">
-            <img src="../imagenes/Dr_Jacobo.jpg" class="img-fluid rounded imgBio"
-                alt="Foto de Jacobo Grinberg">
+    <section class="card marginInicio container" data-aos="fade-up">
+        <article class=" row g-0">
+        <div class="col-md-5 imgCentrar">
+            <img src="../imagenes/Dr_Jacobo.jpg" class="img-fluid rounded" alt="Foto de Jacobo Grinberg">
         </div>
-        <p class="pBio">
-            Jacobo Grinberg Zylberbaum (1946), fue un científico mexicano de una gran lucidez y visión en el
-            estudio de la conciencia, desde el punto de vista del funcionamiento del cerebro. Dejó un enorme
-            legado entre las publicaciones de las investigaciones que llevó a cabo en la UNAM y 56 libros
-            escritos de variados temas. A los 23 años fundó el laboratorio de psicofisiología de la facultad
-            de
-            psicología de la Universidad Anáhuac. Fue fundador y director del Instituto Nacional para el
-            Estudio
-            de la Conciencia. Es el creador de la teoría Sintérgica, que trata de explicar el origen de la
-            experiencia consciente en relación a la estructura del espacio.
-            <br><br>
-            Es egresado de la Facultad de Psicología de la UNAM, donde cursó la licenciatura en
-            Psicología,
-            maestría en el New York Medical College de NY y el doctorado en Ciencias en la Facultad de
-            Ciencias
-            de la UNAM.
-            <br><br>
-            Además de sus aportaciones científicas, su gran curiosidad lo llevó a estudiar varios aspectos
-            culturales relacionados al tema de la conciencia humana, como los prodigios de los chamanes
-            mexicanos, algunos maestros orientales ancestrales y actuales así como algunos cabalistas por lo
-            que
-            todo ello da cuenta de haber sido un científico que requería romper con los límites de la
-            ciencia,
-            para poder explicar algunos fenómenos que sus contemporáneos científicos, aún no se atrevían a
-            abordar. Fenómenos como la telepatía o comunicación a distancia fueron estudiados en su
-            laboratorio
-            de la UNAM y así cada investigación agregaba datos a la comprobación de su Teoría Sintérgica.
-            <br><br>
-            Desgraciadamente el Dr. Grinberg desapareció justo cuando estas investigaciones se llevaban a
-            cabo
-            en el laboratorio y gracias a su importante legado podemos conocer la vida y la obra de éste
-            gran
-            científico, que sigue vigente como un referente para los estudiosos de la fisiología del cerebro
-            en
-            relación a la física cuántica.
-            <br><br>
-            Estusha Grinberg su única hija y heredera, a partir de la ausencia de su padre, se ha encargado
-            de
-            la reedición de algunos de sus libros y del cuidado y difusión de su legado en general
-        </p>
-    </section>
-    <section class="linea ">
-        <img class="img-fluid" src="../imagenes/linea-de-tiempo.png" alt="linea de tiempo sobre jacobo">
-    </section>
-    <section class="container">
-        <h2 class="text-center sombra "> Desaparicion </h2>
-        <div class="img-container">
-            <img src="../imagenes/desaparecido.jpg" class="img-fluid rounded imgBio"
-                alt="Foto de Jacobo Grinberg">
+        <div class="col-md-7">
+            <div class="card-body">
+                <h2 class="textoH2 text-uppercase sombra">Biografía</h2>
+                <p class="pBio"> Jacobo Grinberg Zylberbaum (1946), fue un científico mexicano de una gran lucidez y
+                    visión en el
+                    estudio de la conciencia, desde el punto de vista del funcionamiento del cerebro. Dejó un enorme
+                    legado entre las publicaciones de las investigaciones que llevó a cabo en la UNAM y 56 libros
+                    escritos de variados temas. A los 23 años fundó el laboratorio de psicofisiología de la facultad
+                    de
+                    psicología de la Universidad Anáhuac. Fue fundador y director del Instituto Nacional para el
+                    Estudio
+                    de la Conciencia. Es el creador de la teoría Sintérgica, que trata de explicar el origen de la
+                    experiencia consciente en relación a la estructura del espacio.
+                    <br><br>
+                    Es egresado de la Facultad de Psicología de la UNAM, donde cursó la licenciatura en
+                    Psicología,
+                    maestría en el New York Medical College de NY y el doctorado en Ciencias en la Facultad de
+                    Ciencias
+                    de la UNAM.
+                    <br><br>
+                    Además de sus aportaciones científicas, su gran curiosidad lo llevó a estudiar varios aspectos
+                    culturales relacionados al tema de la conciencia humana, como los prodigios de los chamanes
+                    mexicanos, algunos maestros orientales ancestrales y actuales así como algunos cabalistas por lo
+                    que
+                    todo ello da cuenta de haber sido un científico que requería romper con los límites de la
+                    ciencia,
+                    para poder explicar algunos fenómenos que sus contemporáneos científicos, aún no se atrevían a
+                    abordar. Fenómenos como la telepatía o comunicación a distancia fueron estudiados en su
+                    laboratorio
+                    de la UNAM y así cada investigación agregaba datos a la comprobación de su Teoría Sintérgica.
+                </p>
+            </div>
         </div>
-        <p class="pBio"> Desde el 8 de diciembre de 1994, Jacobo Grinberg se encuentra desaparecido.
-            El 12 de
-            diciembre, su familia preparó una fiesta en su honor para celebrar su cumpleaños número 48, pero él
-            no se presentó. Era común que él realizara viajes de último minuto o que simplemente no contestara
-            su teléfono por días, por lo que su desaparición al principio no pareció extrañar a su familia. En
-            el documental El secreto del doctor Grinberg, dirigido por Ida Cuéllar, se presenta la vida y el
-            trabajo del investigador. La investigación de su desaparición fue llevada a cabo por el agente
-            Clemente Padilla, en mayo de 1995.
-            <br><br>
-            Su hija, Estusha Grinberg, cantante y compositora, rindió homenaje a su padre en marzo del 2023
-        </p>
+        </article>
     </section>
-    <section class="container pb-5">
-        <h2 class="text-center sombra "> Documental </h2>
-        <div class="img-container">
-            <img src="../imagenes/documental.jpg" class="img-fluid rounded imgBio"
-                alt="Foto de Jacobo Grinberg">
+    <section class="linea" data-aos="fade-up">
+        <img class=" img-fluid" src="../imagenes/linea-de-tiempo.png" alt="linea de tiempo sobre jacobo">
+    </section>
+    <section class="card marginInicio container" data-aos="fade-up">
+        <article class=" row g-0">
+        <div class="col-md-7">
+            <div class="card-body">
+                <h2 class="textoH2 text-uppercase sombra">Desaparicion</h2>
+                <p class="pBio">Desde el 8 de diciembre de 1994, Jacobo Grinberg se encuentra desaparecido.
+                    El 12 de
+                    diciembre, su familia preparó una fiesta en su honor para celebrar su cumpleaños número 48, pero él
+                    no se presentó. Era común que él realizara viajes de último minuto o que simplemente no contestara
+                    su teléfono por días, por lo que su desaparición al principio no pareció extrañar a su familia. En
+                    el documental El secreto del doctor Grinberg, dirigido por Ida Cuéllar, se presenta la vida y el
+                    trabajo del investigador. La investigación de su desaparición fue llevada a cabo por el agente
+                    Clemente Padilla, en mayo de 1995.
+                    <br><br>
+                    Su hija, Estusha Grinberg, cantante y compositora, rindió homenaje a su padre en marzo del 2023
+                </p>
+            </div>
         </div>
-        <p class="pBio">
-            Sinopsis
-            <br><br>
-            En 1994, y en pleno clímax de su carrera, el doctor mexicano Jacobo Grinberg desapareció
-            misteriosamente.Las extrañas circunstancias de su desaparición han dado pie a múltiples hipótesis y
-            teorías que han contribuido a ocultar la verdad del caso. Considerado por muchos como el Einstein de
-            la conciencia, Grinberg llevó el estudio de la psicofisiología más allá de los límites de la ciencia
-            tradicional con la finalidad de acercarse al potencial infinito del cerebro humano y demostrar los
-            primeros indicios de la telepatía.
-            <br><br>
-            El director Ida Cuéllar ha investigado el caso durante siete años y ha construido un thriller
-            metafísico trepidante, donde se revelan pruebas desconocidas que reescriben la crónica de los
-            últimos días antes de su desaparición. Sumergirse en el misterio del doctor Grinberg implica
-            reflexionar sobre el misterio de la existencia humana y, más que ofrecer respuestas, descubriremos
-            cómo hacernos mejores preguntas.
-        </p>
+        <div class="col-md-5 imgCentrar">
+            <img src="../imagenes/desaparecido.jpg" class="img-fluid rounded" alt="Foto de Jacobo Grinberg">
+        </div>
+        </article>
+    </section>
+    <section class="container" data-aos="fade-up">
+        <h2 class=" textoH2 sombra">Aspectos Personales de su Vida</h2>
+        <p class="pBio text-center">Más allá de su carrera académica, Jacobo Grinberg Zylberbaum también era un
+            individuo con una vida personal rica y diversa. Apasionado por el estudio de los sueños y la conciencia, era
+            conocido por su mente curiosa y su espiritualidad arraigada en la cosmovisión mesoamericana. Su interés en
+            el chamanismo lo llevó a interactuar con diversas comunidades indígenas y a explorar estados alterados de
+            conciencia. Estas experiencias moldearon su perspectiva única y lo convirtieron en una figura inolvidable en
+            la historia de la psicología.</p>
+    </section>
+    <section class="card marginInicio container" data-aos="fade-up">
+        <article class=" row g-0">
+        <div class="col-md-5 imgCentrar">
+            <img src="../imagenes/documental.jpg" class="img-fluid rounded imgBio" alt="Foto de Jacobo Grinberg">
+        </div>
+        <div class="col-md-7">
+            <div class="card-body">
+                <h2 class="textoH2 text-uppercase sombra">Documental</h2>
+                <p class="pBio">
+                    Sinopsis
+                    <br><br>
+                    En 1994, y en pleno clímax de su carrera, el doctor mexicano Jacobo Grinberg desapareció
+                    misteriosamente.Las extrañas circunstancias de su desaparición han dado pie a múltiples hipótesis y
+                    teorías que han contribuido a ocultar la verdad del caso. Considerado por muchos como el Einstein de
+                    la conciencia, Grinberg llevó el estudio de la psicofisiología más allá de los límites de la ciencia
+                    tradicional con la finalidad de acercarse al potencial infinito del cerebro humano y demostrar los
+                    primeros indicios de la telepatía.
+                    <br><br>
+                    El director Ida Cuéllar ha investigado el caso durante siete años y ha construido un thriller
+                    metafísico trepidante, donde se revelan pruebas desconocidas que reescriben la crónica de los
+                    últimos días antes de su desaparición. Sumergirse en el misterio del doctor Grinberg implica
+                    reflexionar sobre el misterio de la existencia humana y, más que ofrecer respuestas, descubriremos
+                    cómo hacernos mejores preguntas.
+                </p>
+            </div>
+        </div>
+        </article>
     </section>
     <!-- video de yotube -->
-    <section>
-        <div class="videoContainer" style="position: relative; padding-bottom: 56.25%; height: 0;">
-            <iframe src="https://www.youtube.com/embed/BbAA_DaInAU" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"></iframe>
+    <section class="container pt-5" data-aos="fade-up">
+        <div class=" videoContainer" style="position: relative; padding-bottom: 56.25%; height: 0;">
+        <iframe src="https://www.youtube.com/embed/BbAA_DaInAU" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"></iframe>
         </div>
     </section>
     <!--   boton whatsaap  -->
@@ -185,6 +199,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

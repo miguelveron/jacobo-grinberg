@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab&display=swap"
         rel="stylesheet">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="Body">
@@ -53,7 +55,7 @@
         </div>
     </header>
     <!--       main       -->
-    <main >
+    <main>
         <!--    imagen inicio      -->
         <section class="card text-bg-black border-0">
             <img src="imagenes/jacobo-inicio-.jpeg" class="card-img rounded-0" alt="foto de jacobo Grinberg">
@@ -65,9 +67,10 @@
             </div>
         </section>
         <!--    contenido texto e imagenes       -->
-        <section class="container">
+        <section class="container" data-aos="fade-up">
             <h2 class="textoH2 sombra">alcances y significado de las obras de Grinberg</h2>
-            <p class="textoParrafo">El conjunto de las obras de Jacobo Grinberg pre anuncia el desarrolo posterior de la
+            <p class="textoParrafo text-center">El conjunto de las obras de Jacobo Grinberg pre anuncia el desarrolo
+                posterior de la
                 investigacion neurocientifica en convergencia con la fisica cuantica. Estudios recinetes con esta
                 orientacion postula la existencia de un campo universal unitario de consciencia cuantica, que permite
                 comprender los fenomenos de no localidad estudiados por Grinberg y la unidad de la conciencia humana.
@@ -77,19 +80,17 @@
                 dimensiones). Tambien se han realizado mediciones de laboratorio analogas a las de Grinberg que
                 corroboran los efectos de la meditacion sobre la estructura del cerebro. En terminos mas generales, se
                 esta elaboranco una "metafisica alternativa con fundamento cientifico", en la que la consciencia seria
-                un componente fundamental de la realidad, con grados variables y jerarquizados.</p>
+                un componente fundamental de la realidad, con grados variables y jerarquizados.
+            </p>
         </section>
-        <section class="sec">
-            <img src="imagenes/espacio-1.jpeg" alt="galaxia" class="imgInicio">
-        </section>
-        <section class="card marginInicio container">
+        <section class="card marginInicio container" data-aos="fade-up">
             <article class="row g-0">
                 <div class="col-md-5 imgCentrar">
                     <img src="imagenes/unam.jpg" class="img-fluid rounded" alt="unam-universidad-de-mexico">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
-                        <h2 class="textoH2 fs-1 text-uppercase sombra">UNAM</h2>
+                        <h2 class="textoH2 text-uppercase sombra">UNAM</h2>
                         <p class="textoParrafo">La Universidad Nacional Autónoma de México es una universidad pública
                             mexicana. Se destaca como una de las mejores universidades del mundo debido a su excelencia
                             en materia artística, tecnológica y de investigación.​Universidad donde Jacobo Grinberg
@@ -98,11 +99,8 @@
                 </div>
             </article>
         </section>
-        <section class="sec">
-            <img src="imagenes/espacio-2.jpeg" alt="galaxia" class="imgInicio">
-        </section>
-        <section class="container marginInicio">
-            <div class="row g-0">
+        <section class="container marginInicio" data-aos="fade-up">
+            <article class="row g-0">
                 <div class="col-md-7">
                     <h2 class="textoH2 text-uppercase sombra"> La Teoria Sintergica </h2>
                     <p class="textoParrafo"> Como resultado de estas investigaciones Grinberg acuñó novedosas
@@ -125,12 +123,16 @@
                 <div class="col-md-5 fotoCard">
                     <img src="imagenes/jacobo-t.png" class="img-fluid rounded" alt="foto de jacobo">
                 </div>
-            </div>
+            </article>
         </section>
-        <section class="sec">
-            <img src="imagenes/espacio-3.jpeg" alt="galaxia" class="imgInicio">
+        <section class="container" data-aos="fade-up">
+            <h2 class="textoH2 sombra">Información Relevante sobre su Vida</h2>
+            <p class="textoParrafo text-center"> Su enfoque único lo llevó a investigar culturas indígenas y chamanismo,
+                buscando una comprensión profunda de la mente humana y la espiritualidad. Su desaparición en 1994 dejó
+                un misterio sin resolver, pero su legado perdura a través de sus contribuciones a la psicología
+                transpersonal y la exploración de la conexión entre la mente y la naturaleza.</p>
         </section>
-        <section class="card marginInicio container">
+        <section class="card marginInicio container" data-aos="fade-up">
             <article class="row g-0">
                 <div class="col-md-4 imgCentrar">
                     <img src="imagenes/Jacobo-desaparicion.png" class="img-fluid rounded mt-5"
@@ -153,7 +155,7 @@
             </article>
         </section>
         <!-- video de youtube -->
-        <div class="videoInicio fondoInicio">
+        <div class="videoInicio fondoInicio" data-aos="fade-up">
             <iframe width="600" height="500" src="https://www.youtube.com/embed/kMv0ZUkk9LM"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -194,6 +196,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

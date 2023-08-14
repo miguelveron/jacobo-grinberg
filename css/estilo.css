@@ -75,16 +75,6 @@
   padding: 20px;
 }
 
-.sec {
-  width: 100%;
-  overflow: hidden;
-}
-
-.imgInicio {
-  width: 100%;
-  display: block;
-}
-
 .fondoInicio {
   background-image: url("../imagenes/galaxy1.jpg");
   background-size: cover;
@@ -118,6 +108,7 @@
 
 .parrafoInv {
   margin: 20px;
+  text-align: center;
 }
 
 /* MAIN BIOGRAFIA */
@@ -135,7 +126,6 @@ h2 {
 }
 
 .pBio {
-  margin: 30px;
   font-size: 18px;
   margin: 30px;
 }
