@@ -24,3 +24,7 @@ text-transform: uppercase;
     align-items: center;
     justify-content: center;
 }
+
+@mixin centroTexto {
+    text-align: center;
+}

@@ -50,6 +50,7 @@
 .textoParrafo {
   font-size: 18px;
   margin: 30px;
+  text-align: center;
 }
 
 .cardTituloIni {
@@ -73,14 +74,6 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-}
-
-.fondoInicio {
-  background-image: url("../imagenes/galaxy1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 80vh;
 }
 
 .imgCentrar {
@@ -128,6 +121,7 @@ h2 {
 .pBio {
   font-size: 18px;
   margin: 30px;
+  text-align: center;
 }
 
 .img-container {

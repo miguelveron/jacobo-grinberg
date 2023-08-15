@@ -12,6 +12,7 @@
 
   .pBio {
     @include parrafos;
+    @include centroTexto;
   }
 
   .img-container {

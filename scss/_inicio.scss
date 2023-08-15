@@ -10,6 +10,7 @@
 
  .textoParrafo {
    @include parrafos;
+   @include centroTexto;
  }
 
  .cardTituloIni {
@@ -36,13 +37,6 @@
  padding: 20px;
  }
 
-.fondoInicio {
-  background-image: url('../imagenes/galaxy1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 80vh;
-}
 
 .imgCentrar {
 @include centrar;
