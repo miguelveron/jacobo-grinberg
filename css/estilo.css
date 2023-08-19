@@ -21,6 +21,7 @@
 .textNav {
   color: white;
   text-transform: uppercase;
+  transition: color 0.8s ease;
 }
 .textNav:hover {
   color: #f2cc8f;
@@ -28,6 +29,7 @@
 
 .colorTexto {
   color: white;
+  transition: color 0.8s ease;
 }
 .colorTexto:hover {
   text-transform: uppercase;
@@ -198,7 +200,7 @@ h2 {
 }
 
 .fondoFoto {
-  background-image: url("../imagenes/andromeda.png");
+  background-image: url("../imagenes/nasa.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -11,6 +11,7 @@
 .textNav {
     color: $colorNav;
     text-transform: uppercase;
+    transition: color 0.8s ease;
 
     &:hover {
         color: $colorHover;
@@ -19,6 +20,7 @@
 
 .colorTexto {
     color: $colorNav;
+    transition: color 0.8s ease;
 
     &:hover {
         text-transform: uppercase;
